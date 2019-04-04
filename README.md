@@ -3,11 +3,13 @@ I will describe how to calculate the accurate Band Structure of Germanium using 
 
 
 Files need by vasp: INCAR, KPOINTS, POSCAR, POTCAR
-
 INCAR : Contains all the control parameter
-
 KPOINTS : Contains the K-point Sampling scheme
-
 POSCAR : Contains information on unit cell and the basis atoms
-
 POTCAR : Pseudo-Potential File used by VASP
+
+The calculation flow is shown as 
+1. Structure Relaxation with considering HSE06
+2. The static self consistant calculation with considering HSE06
+3. Prepare the KPOINTS file by using vaspkit
+4. Band structure calculation with considering HSE06
