@@ -13,3 +13,5 @@ The calculation flow is shown as
 2. The static self consistant calculation with considering HSE06
 3. Prepare the KPOINTS file by using vaspkit
 4. Band structure calculation with considering HSE06
+
+For the details, please refer to script_for_job_submission.sh
