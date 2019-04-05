@@ -3,7 +3,7 @@
 In this tutorial (actcually a homework exercise for me), I will describe how to calculate the accurate Band Structure of Germanium by using VASP, with considering the Hybrid function HSE06. The Ge crystal are just two sets of FCC lattice with a displacement of (a/4,a/4,a/4), where a is the length of the conventional cubic lattice. In the calculation, I chose a FCC primitive unit cell with 2 atoms in the unit cell.
 
 Files need by vasp: INCAR, KPOINTS, POSCAR, POTCAR
-INCAR : Contains all the control parameter
+INCAR : Contains all the control parameter. In this calculation, parameters are set with referring to PRB 80,115205 (2009).
 KPOINTS : Contains the K-point Sampling scheme
 POSCAR : Contains information on unit cell and the basis atoms
 POTCAR : Pseudo-Potential File used by VASP  (NOTE THAT, one should obtain a license from VASP official website)
@@ -16,8 +16,10 @@ The calculation flow is shown as below,
 Yep, all simulations are carried out with incorporating HSE06 for accuracy at an expense of CPU time.
 For the details, please refer to script_for_job_submission.sh
 
+Then I plot the electronic structures calculated by above settings.
 ![image](https://github.com/wzh176/Ge-Bulk-Bandstructure-VASP/blob/master/Ge_fullband_hse.jpg)
-
+Then enlage of above figure newar the band edge is shown as,
+![image](https://github.com/wzh176/Ge-Bulk-Bandstructure-VASP/blob/master/Ge_bandedge_hse.jpg)
 
 The author thanks Dr. Tang gang for his enthusiastic help and professional instruction.
 
