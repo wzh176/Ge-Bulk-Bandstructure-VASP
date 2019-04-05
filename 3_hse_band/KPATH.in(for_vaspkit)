@@ -1,0 +1,15 @@
+k-points 
+10 ! 10 intersections
+Line-mode
+rec
+0.5 0.25 0.75 ! W
+0.5 0.5 0.5 ! L
+
+0.5 0.5 0.5 ! L
+0 0 0 ! gamma
+
+0 0 0 ! gamma
+0.5 0.0 0.5  ! X
+
+0.5 0.0 0.5 ! X
+0.5 0.25 0.75 ! W
