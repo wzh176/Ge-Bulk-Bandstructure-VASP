@@ -16,6 +16,11 @@ The calculation flow is shown as below,
 Yep, all simulations are carried out with incorporating HSE06 for accuracy at an expense of CPU time.
 For the details, please refer to script_for_job_submission.sh
 
+![image](https://github.com/wzh176/Ge-Bulk-Bandstructure-VASP/blob/master/Ge_fullband_hse.jpg)
+
+
 The author thanks Dr. Tang gang for his enthusiastic help and professional instruction.
+
+
 
 For the next, I will show how to calculate the stress impacts on the electrostatics and mobilities in Ge bulk by using vasp.
