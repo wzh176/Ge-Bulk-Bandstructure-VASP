@@ -6,12 +6,12 @@ Files need by vasp: INCAR, KPOINTS, POSCAR, POTCAR
 INCAR : Contains all the control parameter
 KPOINTS : Contains the K-point Sampling scheme
 POSCAR : Contains information on unit cell and the basis atoms
-POTCAR : Pseudo-Potential File used by VASP
+POTCAR : Pseudo-Potential File used by VASP  (NOTE THAT, one should obtain a license from VASP official website)
 
-The calculation flow is shown as 
+The calculation flow is shown as below, 
 1. Structure Relaxation with considering HSE06
 2. The static self consistant calculation with considering HSE06
-3. Prepare the KPOINTS file by using vaspkit
+3. Prepare the KPOINTS file by using "vaspkit"
 4. Band structure calculation with considering HSE06
 
 For the details, please refer to script_for_job_submission.sh
