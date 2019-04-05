@@ -1,0 +1,43 @@
+SYSTEM=Ge-bulk
+
+GGA = PS
+
+NPAR = 6
+NSIM = 2
+
+## basic settings
+ENCUT  = 600                 ##cutoff energy
+#NBANDS = 36                  ##number of subband
+NEDOS  = 2000
+
+##Startparameter for this run:
+PREC = Normal        ##medium, high low
+
+## HSE Hybrid
+LHFCALC=.TRUE.
+HFSCREEN=0.2
+ALGO = Normal
+TIME =0.4
+AEXX = 0.25
+LDIAG = .TRUE
+
+##Electronic Relaxation 1
+NELM = 90                            ##of ELM steps
+EDIFF = 1.E-05                       ##stopping-criterion for ELM
+LREAL = .FALSE.                       ##real-space projection
+
+##Ionic relaxation
+EDIFFG = -1.E-02                      ##stopping-criterion for IOM
+NSW = 200                             ##number of steps for IOM
+IBRION = 2                            ##ionic relax: 0-MD 1-quasi-Newton 2-CG
+ISIF = 3                              ##stress and relaxation
+POTIM = 0.10                          ##time-step for ionic-motion
+
+##DOS related values:
+ISMEAR = 0 ; SIGMA = 0.10             ##broadening in eV -4-tet -1-fermi 0-gaus
+
+##Electronic relaxation 2 (details)
+
+##Write flags
+LWAVE = F                             ##write WAVECAR
+LCHARG = F      `                      ##write CHGCAR
