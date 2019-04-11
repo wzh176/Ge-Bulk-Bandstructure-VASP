@@ -30,7 +30,7 @@ echo "Relaxation Done"
 cp -fr 1_hse_relax 2_hse_scf
 cd 2_hse_scf
 cp CONTCAR POSCAR   # rename the relaxed structure and overwrite the POSCAR
-rm ./logout.pbe_relax
+rm ./logout.hse_relax
 rm ./KPOINTS
 cp ../KPOINTS.12 ./KPOINTS
 cp ../INCAR.hse_scf ./INCAR
