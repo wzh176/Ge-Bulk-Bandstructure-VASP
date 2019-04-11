@@ -18,7 +18,7 @@ For the details, please refer to script_for_job_submission.sh
 
 Then I plot the electronic structures calculated by above settings.
 ![image](https://github.com/wzh176/Ge-Bulk-Bandstructure-VASP/blob/master/Ge_fullband_hse.jpg)
-Then enlage of above figure newar the band edge is shown as,
+The enlarge of above figure newar the band edge is shown as,
 ![image](https://github.com/wzh176/Ge-Bulk-Bandstructure-VASP/blob/master/Ge_bandedge_hse.jpg)
 
 The author thanks Dr. Tang gang for his enthusiastic help and professional instruction.
