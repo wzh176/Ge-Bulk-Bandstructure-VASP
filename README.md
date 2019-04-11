@@ -1,4 +1,4 @@
-# Ge-Bulk-Bandstructure-VASP
+# Ge-Bulk-Accurate-Bandstructure-VASP
 （wuzhenhua@ime.ac.cn）
 In this tutorial (actcually a homework exercise for me), I will describe how to calculate the accurate Band Structure of Germanium by using VASP, with considering the Hybrid function HSE06. The Ge crystal are just two sets of FCC lattice with a displacement of (a/4,a/4,a/4), where a is the length of the conventional cubic lattice. In the calculation, I chose a FCC primitive unit cell with 2 atoms in the unit cell.
 
